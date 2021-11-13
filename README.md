@@ -8,7 +8,9 @@ https://api.sap.com/api/OP_API_MATERIAL_STOCK_SRV/overview
 本レポジトリ の sql設定ファイルの内容は、上記URL の API 仕様を前提としています。  
 
 ## sqlの設定ファイル
-sap-material-stock-sql には、sqlの設定ファイルとして、sap-material-stock-sql.sqlが含まれています。
+sap-material-stock-sql には、sqlの設定ファイルとして以下のsqlファイルが含まれています。  
+
+* sap-material-stock-sql.sql （SAP 在庫データ）
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 MySQLのセットアップ / Kubernetesの設定 / 具体的なSQLテーブルの作成方法、については、[mysql-kube](https://github.com/latonaio/mysql-kube)を参照ください。
