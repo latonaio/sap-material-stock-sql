@@ -4,7 +4,7 @@ CREATE TABLE `sap-material-stock`
     `Plant`                 varchar(4) DEFAULT NULL,
     `StorageLocation`       varchar(4) DEFAULT NULL,
     `Batch`                 varchar(10) DEFAULT NULL,
-    `to_MaterialStock`      float(13) DEFAULT NULL,
+    `to_MaterialStock`      varchar(13) DEFAULT NULL,
     PRIMARY KEY (`Material`, `Plant`, `StorageLocation`, `Batch`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
