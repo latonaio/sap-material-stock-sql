@@ -5,6 +5,7 @@ CREATE TABLE `sap-material-stock`
     `StorageLocation`       varchar(4) DEFAULT NULL,
     `Batch`                 varchar(10) DEFAULT NULL,
     `MatlWrhsStkQtyInMatlBaseUnit` varchar(13) DEFAULT NULL,
+    `to_MaterialStock`      varchar(13) DEFAULT NULL,
     `Supplier`              varchar(10) DEFAULT NULL,
     `Customer`              varchar(10) DEFAULT NULL,
     `WBSElementInternalID`  varchar(24) DEFAULT NULL,
