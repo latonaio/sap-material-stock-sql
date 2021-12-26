@@ -1,4 +1,4 @@
-CREATE TABLE `sap-material-stock`
+CREATE TABLE `sap_material_stock`
 (
     `Material`              varchar(40) NOT NULL,
     `Plant`                 varchar(4) NOT NULL,
